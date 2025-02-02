@@ -6,7 +6,7 @@ PinkCandyReturns adds a **chance-based Pink Candy** to SCP-330, the candy bowl. 
 
 ## ⚙️ Features  
 ✅ Configurable chance for Pink Candy when picking up SCP-330  
-✅ Admin command to manually give Pink Candy to players  -> addcandy username pink
+✅ Admin command to manually give Pink Candy to players = addcandy username pink
 ✅ Simple configuration in `config.yml`  
 ✅ Works with the EXILED plugin framework  
 
