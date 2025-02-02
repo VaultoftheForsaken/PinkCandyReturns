@@ -14,7 +14,7 @@ namespace PinkCandyReturns
     public class PinkCandyReturns : Plugin<Config>
     {
         public override string Author => "gben5692";
-        public override Version Version => new Version(1, 0, 2);
+        public override Version Version => new Version(1, 0, 0);
 
         private static readonly Random Random = new Random();
 
