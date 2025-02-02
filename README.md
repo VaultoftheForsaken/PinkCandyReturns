@@ -1,18 +1,25 @@
-PinkCandyReturns
-Version: 1.0.0
-Author: gben5692
+# PinkCandyReturns  
+*A plugin for SCP: Secret Laboratory using EXILED*  
 
-📌 Description
-PinkCandyReturns adds a chance for players to receive Pink Candy from SCP-330 (the candy bowl). By default, there is a 10% chance (0.1) for a Pink Candy to be included when a player picks up SCP-330. Additionally, admins can manually give Pink Candy using a command.
+## 📌 Description  
+PinkCandyReturns adds a **chance-based Pink Candy** to SCP-330, the candy bowl. Players have a configurable chance (default: **10%**) to receive **Pink Candy** when picking up SCP-330. Additionally, server admins can **give Pink Candy manually** using commands.  
 
-⚙️ Features
-When a player picks up SCP-330, there is a configurable chance to receive a Pink Candy.
-Admins can use a command to give Pink Candy to a player.
-addcandy username pink
-Configurable Pink Candy drop rate (default: 10%).
-🛠️ Installation
-Download the PinkCandyReturns.dll file.
-Place it in your plugins folder inside your Exiled SCP:SL server directory.
-Restart your server to apply the changes.
-🔧 Configuration (config.yml)
-This plugin can be configured through the config.yml
+## ⚙️ Features  
+✅ Configurable chance for Pink Candy when picking up SCP-330  
+✅ Admin command to manually give Pink Candy to players  
+✅ Simple configuration in `config.yml`  
+✅ Works with the EXILED plugin framework  
+
+## 🔧 Installation  
+1. **Download** the latest release from the [Releases](https://github.com/VaultoftheForsaken/PinkCandyReturns/releases) page.  
+2. **Place** `PinkCandyReturns.dll` into your `plugins` folder inside your SCP:SL server directory.  
+3. **Restart your server** to apply changes.  
+
+## 🛠️ Configuration (`config.yml`)  
+After the first launch, a config file will be generated. You can edit it to modify plugin settings:  
+
+```yaml
+PinkCandyReturns:
+  IsEnabled: true
+  Debug: false
+  PinkCandyChance: 0.1  # 10% chance for Pink Candy
